@@ -1,1 +1,1 @@
-# landing-page
+this is an assignment for The Odin Project
