@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+	color: #E5E7EB;
+	font-weight: normal;
+}
+
+.hero-maintext {
+    font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+	color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+	color: white;
+	font-weight: bold;
+	border-radius: 8px;
+	padding: 8px 24px;
+}
+
+.hero-image {
+    background-color: gray;
+    color: #F9FAF8;
+}
+
+.features-header {
+    font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+.features-image {
+    background-color: gray;
+    color: #F9FAF8;
+}
+
+.features-subtext {
+    color: gray;
+    font-size: 16px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+	text-align: right;
+}
+
+.cta-container {
+    background-color: #3882F6;
+}
+
+.cta-text, p {
+    color: #F9FAF8;
+}
+
+.footer {
+    color: #E5E7EB;
+	font-size: 14px;
+	text-align: center;
+}
