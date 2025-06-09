@@ -8,14 +8,30 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-size: 24px;
 	font-weight: 900;
 	color: #F9FAF8;
+    display: flex;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 a {
