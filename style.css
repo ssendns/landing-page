@@ -58,11 +58,33 @@ button {
 	font-weight: bold;
 	border-radius: 8px;
 	padding: 8px 24px;
+    border: none;
+    font-size: 18px;
+    align-self: flex-start;
 }
 
 .hero-image {
     background-color: gray;
     color: #F9FAF8;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 100px;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 80px 240px;
 }
 
 .features-header {
