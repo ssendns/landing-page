@@ -138,17 +138,26 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 50px;
+    flex-direction: column;
 }
 
 .quote-text {
     font-size: 36px;
 	font-style: italic;
 	color: #1F2937;
+    max-width: 800px;
+    text-align: left;
 }
 
 .author {
     font-weight: bold;
 	text-align: right;
+    align-self: flex-end;
+    margin-right: 100px;
 }
 
 .cta-container {
