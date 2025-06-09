@@ -172,4 +172,7 @@ button {
     color: #E5E7EB;
 	font-size: 14px;
 	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
