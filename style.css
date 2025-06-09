@@ -52,7 +52,7 @@ a {
 	color: #E5E7EB;
 }
 
-button {
+button, .cta-button {
     background-color: #3882F6;
 	color: white;
 	font-weight: bold;
@@ -60,6 +60,9 @@ button {
 	padding: 8px 24px;
     border: none;
     font-size: 18px;
+}
+
+button {
     align-self: flex-start;
 }
 
@@ -160,12 +163,31 @@ button {
     margin-right: 100px;
 }
 
+.cta {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
 .cta-container {
     background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 75px;
+    border-radius: 16px;
 }
 
 .cta-text, p {
     color: #F9FAF8;
+}
+
+.cta-button {
+    border: 2px solid white;
 }
 
 .footer {
